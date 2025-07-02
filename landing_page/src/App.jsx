@@ -5,6 +5,8 @@ import Hero from "./components/Hero"
 import { Coctails } from "./components/Coctails"
 import { About } from "./components/About"
 import { Art } from "./components/Art"
+import { Menu } from "./components/Menu"
+import Contact from "./components/Contact"
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -17,6 +19,8 @@ function App() {
     <Coctails />
     <About />
     <Art />
+    <Menu />
+    <Contact />
   </main>
   )
 }
